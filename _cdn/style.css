@@ -2,3 +2,51 @@
     Created on : 7 de jan. de 2023, 10:47:09
     Author     : fabio
 */
+
+.main_header{
+    width: 100%;
+    background-color: #2D3142;
+}
+
+.main_header .main_header_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_header .main_header_content .logo{
+    flex-basis: 330px;
+    padding: 20px;
+    width: 290px;
+}
+
+.main_header .main_header_content .main_header_content_menu{
+    flex-basis: calc(100% - 330px);
+    display: flex;
+    justify-content: flex-end; /*Justificando o display flex como flexivel e no final da linha*/
+}
+
+.main_header_content_menu ul{
+    display: flex;
+    align-items: stretch; /*Deixa os elementos da lista menu alinhado um ao lado do outro*/    
+}
+
+.main_header_content_menu ul li{
+    list-style: none; /*Tira a bolinha do menu*/
+    display: flex; /*Deixa o conteúdo flexivel*/
+    align-items: center; /*Centraliza o elemento quanto a altura do topo */  
+}
+
+.main_header_content_menu ul li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #D36833;
+}
+
+
+.main_header_content_menu ul li a:hover{
+    color: #FFF;
+    background-color: #D36833;
+}
