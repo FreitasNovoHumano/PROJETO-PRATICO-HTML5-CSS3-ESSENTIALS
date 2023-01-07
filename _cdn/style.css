@@ -28,13 +28,13 @@
 
 .main_header_content_menu ul{
     display: flex;
-    align-items: stretch; /*Deixa os elementos da lista menu alinhado um ao lado do outro*/    
+    align-items: stretch; /*Deixa os elementos da lista menu alinhado um ao lado do outro*/
 }
 
 .main_header_content_menu ul li{
     list-style: none; /*Tira a bolinha do menu*/
     display: flex; /*Deixa o conteúdo flexivel*/
-    align-items: center; /*Centraliza o elemento quanto a altura do topo */  
+    align-items: center; /*Centraliza o elemento quanto a altura do topo */
 }
 
 .main_header_content_menu ul li a{
@@ -109,7 +109,7 @@
 
 .main_blog .main_blog_header{
     flex-basis: 100%;
-    margin: 30px 0;    
+    margin: 30px 0;
 }
 
 .main_blog .main_blog_header h1{
@@ -125,7 +125,7 @@
 }
 
 .main_blog article:hover{ /*Voltando a opacidade dos artigoa ao passar o mouse*/
-    opacity: 1;   
+    opacity: 1;
 }
 
 .main_blog article img{
@@ -133,10 +133,10 @@
 }
 
 .main_blog article p{
-     margin: 10px 0;    
+    margin: 10px 0;
 }
 
-.main_blog article .category{   
+.main_blog article .category{
     font-size: 0.875em;
     color: #D36833;
 }
@@ -153,9 +153,9 @@
 /*OPTIN*/
 
 .main_optin{
-   width: 100%;
-   background-color: #2D3142;
-   margin: 20px 0;
+    width: 100%;
+    background-color: #2D3142;
+    margin: 40px 0;
 }
 
 .main_optin_content{
@@ -208,4 +208,58 @@
     background-color: #D36833;
     border: none;
     font-size: 0.875em;
+}
+
+/*DOBRA COURSE*/
+
+.main_course{
+    width: 100%;
+}
+
+.main_course .main_course_header{
+    max-width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.main_course .main_course_header img{
+    margin-bottom: 20px; /*propriedade define a margem inferior de um elemento*/
+}
+
+.main_course .main_course_header h1{
+    font-size: 3em;
+    margin-bottom: 10px;    
+}
+
+.main_course_content{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /*Falando pro pai de todas as div que o espaçamento é entre os elementos*/
+    margin-bottom: 40px;
+}
+
+.main_course_content article{
+    flex-basis: calc(50% - 40px);
+    margin: 20px 0;
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+}
+
+.main_course_content article h2{
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.main_course_content article p{
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 4px;
 }
