@@ -50,3 +50,48 @@
     color: #FFF;
     background-color: #D36833;
 }
+
+.main_cta{
+    width: 100%;
+    background-image: url('../img/bg_main_home.png');
+    background-color: #2D3142;
+    background-repeat: no-repeat; /*Impede a imagem de repetir*/
+    background-position: center center; /*Imagem fica centralizada tanto na vertica e horizontal*/
+    background-size: cover; /*Quando a página for renderizada, vai adequar a imagem ao tamenho que tenho*/
+}
+
+.main_cta .main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1{
+    font-size: 3em;
+    color: #FFF;
+    font-weight: 700; /*propriedade define como caracteres grossos ou finos no texto devem ser exibidos.*/
+    text-align: center;
+}
+
+.main_cta .main_cta_content p{
+    font-size: 1.85em;
+    color: #FFF;
+    font-weight: 300; /*propriedade define como caracteres grossos ou finos no texto devem ser exibidos.*/
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main_cta .main_cta_content .btn{
+    background-color: #D36833;
+    color: #FFF;
+    font-size: 1em;
+    padding: 10px 30px;
+    border-radius: 5px; /*Deixa a borda arrendondada*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
