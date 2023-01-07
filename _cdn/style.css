@@ -95,3 +95,57 @@
     max-width: 1300px;
     padding: 160px 40px;
 }
+
+/*MAIN_BLOG*/
+
+.main_blog{
+    max-width: calc(1300px - 40px); /*- 40px se refere ao padding de 20px direita esquerda = 40*/
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* space-around; Cria um espaçamento entre os elementos. space-between; tira o espaçamento*/
+    flex-wrap: wrap; /*Quebra o conteúdo e continua na linha de baixo*/
+}
+
+.main_blog .main_blog_header{
+    flex-basis: 100%;
+    margin: 30px 0;    
+}
+
+.main_blog .main_blog_header h1{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+.main_blog article{
+    opacity: 0.5;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+
+.main_blog article:hover{ /*Voltando a opacidade dos artigoa ao passar o mouse*/
+    opacity: 1;   
+}
+
+.main_blog article img{
+    width: 100%;
+}
+
+.main_blog article p{
+     margin: 10px 0;    
+}
+
+.main_blog article .category{   
+    font-size: 0.875em;
+    color: #D36833;
+}
+
+.main_blog article h2{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.main_blog article h2 a{
+    color: #333;
+}
