@@ -1,0 +1,14 @@
+/* 
+    Created on : 7 de jan. de 2023, 10:46:45
+    Author     : fabio
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
