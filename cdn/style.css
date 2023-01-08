@@ -217,7 +217,7 @@
 }
 
 .main_course .main_course_header{
-    max-width: 780px;
+    max-width: 780px; /*Deixa a box flexiveil*/
     margin: 0 auto;
     text-align: center;
     color: #333;
@@ -233,6 +233,7 @@
     margin-bottom: 10px;    
 }
 
+/*ARTIGOS DO COUSE*/
 .main_course_content{
     max-width: 1300px;
     margin: 0 auto;
@@ -244,7 +245,7 @@
 
 .main_course_content article{
     flex-basis: calc(50% - 40px);
-    margin: 20px 0;
+    margin: 20px 0; /*direita esquerda = zero, pq a margin está sendo cálculada pelo "justify-content: space-around"*/
     background-color: #EBEBEB;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -264,6 +265,7 @@
     margin-bottom: 4px;
 }
 
+/*DOBRA DA SEÇÃO ESCOLA, ARTIGOS, CUSOS E DEPOIMENTOS*/
 .main_course_fullwidth{
     width: 100%;
     background-color: #D36833;
@@ -320,4 +322,12 @@
     width: 15px;
     margin-top: 5px;
     margin-bottom: 2px;
+}
+
+.main_school{
+    width: 100%;
+}
+
+.main_school_content{
+    
 }
