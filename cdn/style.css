@@ -324,7 +324,7 @@
     margin-bottom: 2px;
 }
 
-/*SEÇÃO DOBRA SOBRE A ESCOLA*/
+/*SEÇÃO DOBRA SOBRE A ESCOLA PT-1*/
 
 .main_school{
     width: 100%;
@@ -353,26 +353,68 @@
     flex-basis: calc(70% - 20px);
 }
 
-.main_school_content_left_network{
+.main_school_content_left_content > header > p{ /*Estilizando a classe social-network*/
     padding: 10px 10px;
     background-color: #2D3142;
-    border-radius: 5px;
+    border-radius: 5px;/*Borda arrendondada*/
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     color: #FFF;
+    margin-bottom: 20px;
 }
 
-.main_school_content_left_network span{
+.main_school_content_left_content > header > p span{
     margin-left: 20px;
 }
 
-.main_school_content_left_network a{
+.main_school_content_left_content > header > p a{
     color: #FFF;
     font-size: 0.9em;
 }
 
-.main_school_content_left_network a:hover{
+.main_school_content_left_content > header > p a:hover{
     text-decoration: underline;
+}
+
+.main_school_content_left_content > header > h2{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main_school_content_left_content > p{
+    margin-bottom: 20px;
+}
+
+.main_school_list{
+    width: 100%;
+    background-color: #EBEBEB;
+    border-radius: 5px;/*Borda arrendondada*/
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_school_list > header{
+    flex-basis: 100%;
+    color: #D36833;
+    margin-bottom: 20px;
+}
+
+.main_school_list > article{
+    flex-basis: calc(50% - 10px);
+    margin: 4px 0;
+}
+
+.main_school_list > article h3{
+    font-weight: 300;
+}
+
+.main_school_content_left_title{
+    font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 .main_school_content_right{
@@ -381,9 +423,18 @@
 
 .main_school_content_right img{
     width: 100%; 
-    border-radius: 50%; /*Deixa a imagem redonda*/
+    border-radius: 50%; /*Deixa a imagem com a borda redonda*/
     -moz-border-radius: 50%;
     -wenkit-border-radius: 50%;
 }
 
+.main_school_address{
+    flex-basis: 100%;
+    padding: 45px 0;
+    text-align: center;    
+}
 
+.main_school_address h2{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
