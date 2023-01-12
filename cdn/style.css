@@ -520,3 +520,63 @@
     background-color: #2D3142;
     color: #FFF;
 }
+
+/*Seção CTA Footer*/
+.main_optin_footer{
+    width: 100%;
+    background-color: #EBEBEB;
+}
+
+.main_optin_footer_content{
+    max-width: 1300px;
+    padding: 40px 0;
+    text-align: center;
+    color: #333;
+}
+
+.main_optin_footer_content h1{
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.main_optin_footer_content .btn{
+    color: #FFF;
+    border-radius: 5px; /*Deixa a imagem com a borda redonda*/
+    -moz-border-radius: 5px;
+    -wenkit-border-radius: 5px;
+    background-color: #D36833;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.main_footer{
+    max-width: 1300px;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #333;
+}
+
+.main_footer > header{
+    flex-basis: 100%;
+}
+
+.main_footer > header h1{
+    font-size: 1.4em;
+    margin-bottom: 40px;
+}
+
+.main_footer > article{
+    flex-basis: 33%;
+}
+
+.main_footer > article ul li{
+    list-style: none;
+    margin: 5px 0;
+}
+
+.main_footer > article ul li a:hover{
+    text-decoration: underline;    
+}
