@@ -439,20 +439,21 @@
     margin-bottom: 5px;
 }
 
+/*DOBRA TUTOR*/
 .main_tutor{
     width: 100%;
     background-color: #2D3142;
 }
 
 .main_tutor_content{
-    max-width: calc(1300px - 80px);
+    max-width: calc(1300px - 80px); /* - 80px se refere ao padding direita esquerda*/
     padding: 40px; /*Espaçamento interno*/
     margin: 0 auto; /*Alinhando conteúdo*/
     color: #FFF;
     text-align: center;
 }
 
-.main_tutor_content > header h1{
+.main_tutor_content > header h1{ /* Header é o filho direto da classe main_tutor_content*/
     font-size: 2em;
     margin-bottom: 10px; 
 }
@@ -481,7 +482,7 @@
 
 .main_tutor_social_network{
     max-width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; /*Deixa a seção alinhado no centro*/
     background-color: #D36833;
     border-radius: 5px; /*Deixa a imagem com a borda redonda*/
     -moz-border-radius: 5px;
@@ -524,12 +525,12 @@
 /*Seção CTA Footer*/
 .main_optin_footer{
     width: 100%;
-    background-color: #EBEBEB;
+    background-color: #F7F7F7;
 }
 
 .main_optin_footer_content{
     max-width: 1300px;
-    padding: 40px 0;
+    padding: 40px 0; /*40px cima, baixo e 0 direita, esquerda*/
     text-align: center;
     color: #333;
 }
@@ -561,22 +562,41 @@
 
 .main_footer > header{
     flex-basis: 100%;
-}
-
-.main_footer > header h1{
     font-size: 1.4em;
     margin-bottom: 40px;
 }
 
-.main_footer > article{
-    flex-basis: 33%;
+.main_footer_our_pages, .main_footer_links{
+    flex-basis: 25%;
+}
+
+.main_footer_about{
+    flex-basis: 50%;
+}
+
+.main_footer > article h2{
+    margin-bottom: 20px;
 }
 
 .main_footer > article ul li{
-    list-style: none;
+    list-style: none; /*Tira a bolinha da lista*/
     margin: 5px 0;
 }
 
+.main_footer > article ul li a{
+    color: #333;
+}
 .main_footer > article ul li a:hover{
     text-decoration: underline;    
+}
+
+.main_footer_rights{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #F7F7F7;
+    border-top: 1px solid #EBEBEB;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 300;
 }
